@@ -5,6 +5,5 @@ class Employee < ActiveRecord::Base
               greater_than_or_equal_to: 40,
               less_than_or_equal_to: 200
             }
-  # validates :hourly_rate, comparison: { less_than_or_equal_to: 200}
   belongs_to :store
 end
